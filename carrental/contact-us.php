@@ -178,11 +178,9 @@ foreach($results as $result)
 </section>
 <!-- /Contact-us--> 
 
-
 <!--Footer -->
 <?php include('includes/footer.php');?>
 <!-- /Footer--> 
-
 <!--Back to top-->
 <div id="back-top" class="back-top"> <a href="#top"><i class="fa fa-angle-up" aria-hidden="true"></i> </a> </div>
 <!--/Back to top--> 
