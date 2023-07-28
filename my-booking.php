@@ -7,7 +7,8 @@ if(strlen($_SESSION['login'])==0)
 header('location:index.php');
 }
 else{
-?><!DOCTYPE HTML>
+?>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
 
@@ -43,12 +44,7 @@ else{
 <link rel="shortcut icon" href="assets/images/favicon-icon/favicon.png">
 <!-- Google-Font-->
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->  
+
 </head>
 <body>
 
@@ -144,9 +140,6 @@ foreach($results as $result)
  <div class="vehicle_status"> <a href="#" class="btn outline btn-xs">Cancelled</a>
             <div class="clearfix"></div>
         </div>
-             
-
-
                 <?php } else { ?>
  <div class="vehicle_status"> <a href="#" class="btn outline btn-xs">Not Confirm yet</a>
             <div class="clearfix"></div>
